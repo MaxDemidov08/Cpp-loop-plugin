@@ -39,7 +39,7 @@ export function activate(context: vscode.ExtensionContext) {
                     }
                 }
 
-                // 1. Умный Range-based for
+                // 1. Итеративный for
                 const rangeFor = new vscode.CompletionItem('foreach', vscode.CompletionItemKind.Snippet);
                 rangeFor.detail = `💡 Итерируемся по ${detectedContainer} (тип: ${detectedType})`;
                 rangeFor.documentation = new vscode.MarkdownString(`Создает цикл для перебора элементов типа \`\${detectedType}\`.`);
