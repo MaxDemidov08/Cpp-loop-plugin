@@ -1,8 +1,8 @@
 {
   "name": "smart-cpp-loop-plugin",
   "displayName": "Smart C++ Loop Inserter",
-  "description": "Умный плагин для генерации циклов в C++",
-  "version": "0.0.2",
+  "description": "Smart C++ Loop Inserter",
+  "version": "0.0.1",
   "publisher": "Ya-chmen",
   "engines": {
     "vscode": "^1.80.0"
@@ -18,10 +18,11 @@
     "onLanguage:cpp"
   ],
   "contributes": {
-    "commands": []
+    "commands": []  
   },
   "devDependencies": {
     "@types/vscode": "^1.80.0",
+    "rimraf": "^6.1.3",
     "typescript": "^5.0.0"
   }
 }
